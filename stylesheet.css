@@ -1,0 +1,38 @@
+.navbar-light 
+{
+    display: none;
+}
+  
+  .navbar-light .navbar-nav .nav-link
+   {
+    padding: 25px 10px;
+    color: #070808;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active 
+  {
+    color: #000000;
+  }
+  
+  @media (max-width:584px) 
+  {
+    .navbar-light .navbar-nav .nav-link 
+    {
+      padding: 10px 0;
+    }
+  }
+  
+.about-img
+{
+    margin-left: -100px;
+    right: -60px;
+   }
+
+   body
+   {
+    background-image: url("https://wallpapercave.com/wpr/wp10212894.jpg");
+    background-size: cover;
+   }
